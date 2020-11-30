@@ -1,11 +1,5 @@
-# This files originate from the "New-Empty-Python-Project-Base" template:
-#     https://github.com/Neuraxio/New-Empty-Python-Project-Base
-# Created by Guillaume Chevalier at Neuraxio:
-#     https://github.com/Neuraxio
-#     https://github.com/guillaume-chevalier
-# License: CC0-1.0 (Public Domain)
-
 setuptools
-pytest==4.3.1
-pytest-cov==2.6.1
-neuraxle
+pytest==6.1.2
+pytest-cov==2.10.1
+numpy==1.19.3
+opencv-contrib-python==4.4.0.46
