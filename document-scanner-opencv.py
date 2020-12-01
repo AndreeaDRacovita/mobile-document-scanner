@@ -69,7 +69,6 @@ def pre_processing(img):
 
 while True:
     success, img = cap.read()
-    img = cv2.flip(img, -1)
     img = cv2.resize(img, (width, height))
     img_contour = img.copy()
     img_thres = pre_processing(img)
